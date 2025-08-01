@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Amazon Category Predictor</title></head>
+<body>
+  <h1>Predict Product Category</h1>
+  <form method="post">
+    Price: <input type="number" step="0.01" name="price" required><br>
+    Quantity: <input type="number" name="quantity" required><br>
+    Payment Method:
+    <select name="payment">
+      <option value="Credit Card">Credit Card</option>
+      <option value="Cash">Cash</option>
+      <option value="PayPal">PayPal</option>
+      <option value="Debit Card">Debit Card</option>
+    </select><br>
+    <input type="submit" value="Predict">
+  </form>
+
+  {% if prediction %}
+    <h2>Predicted Category: {{ prediction }}</h2>
+  {% endif %}
+</body>
+</html>
