@@ -110,13 +110,13 @@ amazon-sales-predictor/
 
 
 ### Step 1: Input Form
-![Form](assests/input_form.png)  
+![Form](assets/input_form.png)  
 
 ### Step 2: Filled Form 
-![Prediction Result](assests/filled_input.png)  
+![Prediction Result](assets/filled_input.png)  
 
 ### Step 3: Prediction Result
-![Full Page](assests/predicted_result.png)
+![Full Page](assets/predicted_result.png)
 
 ---
 
